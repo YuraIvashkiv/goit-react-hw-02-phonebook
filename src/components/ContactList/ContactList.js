@@ -1,6 +1,6 @@
-import { ContactItem } from "components/contactItem/ContactItem";
+import { ContactItem } from 'components/contactItem/ContactItem';
 
-export const Contacts = ({ contacts, onClick }) => {
+export const ContactList = ({ contacts, onClick }) => {
   return (
     <div>
       <ul>
